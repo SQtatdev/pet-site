@@ -1,0 +1,30 @@
+html {
+    background-color: #333;
+  }
+
+
+.title {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: start;
+  align-items: right;
+}
+
+a {
+  color: rgb(22, 202, 31);
+}
+
+a:link {
+  color: #265301;
+  font-family: cursive;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+a:hover {
+  border-bottom: 1px dotted;
+  border-top: 1px dotted;
+  border-left: 1px dotted;
+  border-right: 1px dotted;  
+}
